@@ -8,11 +8,20 @@ app.use(express.json());
 app.use(express.static(__dirname + "/public"));
 app.use("/api", route.api);
 
-app.use("/", async function (req, res) {
+app.get("/", async function (req, res) {
     var json = {
         "status": "ok",
         "code": 202,
         "message": "server run normal"
+    };
+    return res.json(json);
+});
+
+app.all("*", async function (req, res) {
+    var json = {
+        "status": "bad",
+        "code": 404,
+        "message": "not found api"
     };
     return res.json(json);
 });
