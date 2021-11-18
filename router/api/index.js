@@ -54,7 +54,7 @@ app.post("/login", async function (req, res) {
                             "message": "data user not found"
                         });
                     }
-
+                    getUserData["me"] = loop_data;
                     return res.json(getUserData);
 
                 } else {
