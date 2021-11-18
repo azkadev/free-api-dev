@@ -1,0 +1,25 @@
+{
+    "profile": [
+
+    ],
+    "device": [
+        {
+            "name": "realme",
+            "os": "android",
+            "version": "12",
+            "type": "mobile",
+            "ip": "192.168.43.99",
+            "date": 12345678,
+            "date_active": 123456789
+        },
+        {
+            "name": "linux",
+            "os": "linux",
+            "version": "21.04",
+            "type": "desktop",
+            "ip": "192.168.43.99",
+            "date": 1212182,
+            "date_active": 212121212
+        }
+    ]
+}
