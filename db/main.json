@@ -1,0 +1,26 @@
+{
+    "user": [
+        {
+            "id": 1,
+            "first_name": "gibran",
+            "last_name": "alazka",
+            "username": "azkadev",
+            "email": "azkagans@gmail.com",
+            "password": "developerganteng",
+            "verified_email": true,
+            "phone_number": "62858686878",
+            "verified_phone_number": true
+        },
+        {
+            "id": 2,
+            "first_name": "farel",
+            "last_name": "",
+            "username": "",
+            "email": "farel@gmail.com",
+            "password": "devyou96",
+            "verified_email": true,
+            "phone_number": null,
+            "verified_phone_number": false
+        }
+    ]
+}

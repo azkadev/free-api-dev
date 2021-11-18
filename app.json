@@ -1,11 +1,11 @@
 {
-    "name": "rest api @azkadev",
-    "description": "hayy",
-    "repository": "https://github.com/azkadev/free-api-dev",
-    "buildpacks": [
-      {
-        "url": "heroku/nodejs"
-      }
-    ],
-    "stack": "heroku-20"
-  }
+  "name": "rest api @azkadev",
+  "description": "hayy",
+  "repository": "https://github.com/azkadev/free-api-dev",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "stack": "heroku-20"
+}
