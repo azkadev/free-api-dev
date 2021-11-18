@@ -1,0 +1,16 @@
+{
+    "name": "rest api @azkadev",
+    "description": "hayy",
+    "keywords": [
+      "telegram-bot",
+      "telegram-bot-nodejs",
+      "userbot"
+    ],
+    "repository": "https://github.com/azkadev/azka-userbot-telegram",
+    "buildpacks": [
+      {
+        "url": "heroku/nodejs"
+      }
+    ],
+    "stack": "heroku-20"
+  }
