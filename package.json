@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/azkadev/free-api-dev#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "lowdb": "^3.0.0"
   }
 }
