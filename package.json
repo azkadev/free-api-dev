@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/azkadev/free-api-dev#readme",
   "dependencies": {
+    "@supabase/supabase-js": "^1.28.4",
     "express": "^4.17.1",
-    "lowdb": "^3.0.0"
+    "lowdb": "^1.0.0"
   }
 }
